@@ -4244,3 +4244,18 @@
          right : 6vw;
      }
  }
+
+ .letterHover{
+    position:relative;
+  }
+  .letterAnim {
+      /* again position relative so we can use the the top property */
+    position:relative;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+  }
+  
+  .letterAnim:hover {
+   top: -5px;
+   rotate: var(--deg);
+  }
