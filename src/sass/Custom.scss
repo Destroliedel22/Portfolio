@@ -1368,6 +1368,36 @@
      text-transform : uppercase;
      letter-spacing : .2rem;
  }
+
+ .container {
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .skill {
+    margin-bottom: 15px;
+  }
+  .skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .progress-bar {
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .progress {
+    height: 100%;
+    background: linear-gradient(90deg, #086c0c, #08c612);
+    text-align: right;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 10px;
+  }
  
  /* emphasis, italic,
   * strong, bold and small text
@@ -3258,7 +3288,7 @@
      justify-content : center;
      align-items     : center;
      position        : absolute;
-     bottom          : 4.8rem;
+     bottom          : 4.6rem;
      right           : 5.8rem;
  }
  
@@ -3421,7 +3451,7 @@
  
  .about-info__text {
      padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
-     margin-left : -4rem;
+     margin-left : 15rem;
  }
  
  .about-info__text .text-pretitle {
