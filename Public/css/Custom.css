@@ -15479,7 +15479,7 @@ img.u-pull-left {
   margin-left: 0;
   font-size: var(--text-sm);
   line-height: var(--vspace-0_5);
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
   padding-left: calc(0.875 * var(--space));
   position: relative;
 }
