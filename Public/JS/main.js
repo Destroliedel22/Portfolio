@@ -64,7 +64,7 @@
         translateY: [100, 0],
         opacity: [0, 1]
     }, '-=800');
-    
+
    /* Preloader
     * -------------------------------------------------- */
     const ssPreloader = function() {

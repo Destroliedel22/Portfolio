@@ -12417,7 +12417,6 @@ textarea {
 .column {
   display: block;
   flex: 1 1 0%;
-  padding: 0 var(--gutter);
 }
 
 .collapse > .column,
@@ -14434,7 +14433,6 @@ img.u-pull-left {
   font-size: var(--text-huge);
   line-height: 1.074;
   margin-top: 0;
-  margin-bottom: 100px;
 }
 
 /* ------------------------------------------------------------------- 

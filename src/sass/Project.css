@@ -42,8 +42,23 @@ body {
     height: 92%;
     object-fit: cover;
     border-radius: 50px;
-    border: 4px;
-    border-style: dashed;
+    border: 2px;
+    border-style: solid;
     border-color: black;
     margin-top: 20px;
   }
+
+.projectinfo {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.projectinfotext {
+    margin-left: 3px;
+}
+
+.skills {
+    --gutter               : 6rem;
+    --text-huge-multiplier : 1;
+    position               : relative;
+}

@@ -609,7 +609,7 @@
  .column {
      display : block;
      flex    : 1 1 0%;
-     padding : 0 var(--gutter);
+    //  padding : 0 var(--gutter);
  }
  
  .collapse>.column,
@@ -2726,7 +2726,6 @@
      font-size   : var(--text-huge);
      line-height : 1.0740;
      margin-top  : 0;
-     margin-bottom: 100px;
  }
  
  /* ------------------------------------------------------------------- 
