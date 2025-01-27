@@ -2726,6 +2726,7 @@
      font-size   : var(--text-huge);
      line-height : 1.0740;
      margin-top  : 0;
+     margin-bottom: 100px;
  }
  
  /* ------------------------------------------------------------------- 
@@ -3235,7 +3236,7 @@
      min-height      : calc(25.5 * var(--space));
      justify-content : center;
      align-items     : center;
-     padding-top     : calc(16vh + var(--header-height));
+     padding-top     : calc(30vh - var(--header-height));
      padding-bottom  : var(--vspace-3);
  }
  

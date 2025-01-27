@@ -14434,6 +14434,7 @@ img.u-pull-left {
   font-size: var(--text-huge);
   line-height: 1.074;
   margin-top: 0;
+  margin-bottom: 100px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -14915,7 +14916,7 @@ img.u-pull-left {
   min-height: calc(25.5 * var(--space));
   justify-content: center;
   align-items: center;
-  padding-top: calc(16vh + var(--header-height));
+  padding-top: calc(30vh - var(--header-height));
   padding-bottom: var(--vspace-3);
 }
 
