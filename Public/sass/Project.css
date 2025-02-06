@@ -14,7 +14,7 @@ body {
 .images-container {
     width: 500px;
     height: 80vw;
-    transform: rotate(-90deg) translateY(-500px);
+    transform: rotate(-0.25turn) translateY(-500px);
     transform-origin: top right;
     overflow-x: hidden;
     overflow-y: auto;
@@ -23,6 +23,7 @@ body {
     border-color: white;
     border-radius: 50px;
     background-color: rgb(130, 130, 130);
+    margin-bottom: -700px;
   }
 
 .images-container div {
@@ -54,7 +55,24 @@ body {
 }
 
 .projectinfotext {
-    margin-left: 3px;
+    margin-left: 2px;
+}
+
+.SkillsUsedText {
+  height: 100%;
+  width: 200px;
+  margin-left: 50px;
+  float: left;
+}
+
+.SkillsUsedText {
+  border: 3px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  background-color: rgb(130, 130, 130);
+  text-align: center;
+  color: black;
 }
 
 .skills {
