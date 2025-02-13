@@ -58,25 +58,39 @@ body {
   margin-left: 2px;
 }
 
-.SkillsUsedText {
-  height: 100%;
-  width: 200px;
-  margin-left: 50px;
-  float: left;
-}
-
-.SkillsUsedText {
-  border: 3px;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: white;
-  background-color: rgb(130, 130, 130);
-  text-align: center;
-  color: black;
-}
-
 .skills {
   --gutter: 6rem;
   --text-huge-multiplier: 1;
   position: relative;
+}
+
+.SkillsUsed {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  gap: 10px; /* Adjust spacing */
+  min-width: 100%;
+  animation: pingPongScroll 5s ease-in-out infinite alternate;
+}
+
+/* Keyframes for back-and-forth movement */
+@keyframes pingPongScroll {
+  0% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(-56%);
+  }
+}
+.SkillsUsed .marquee:hover {
+  animation-play-state: paused;
+}
+
+.About-Project {
+  margin-bottom: -50px;
 }
