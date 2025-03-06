@@ -71,22 +71,6 @@ body {
   position: relative;
 }
 
-.marquee {
-  display: flex;
-  gap: 10px; /* Adjust spacing */
-  min-width: 100%;
-  animation: pingPongScroll 5s ease-in-out infinite alternate;
-}
-
-/* Keyframes for back-and-forth movement */
-@keyframes pingPongScroll {
-  0% {
-    transform: translateX(5%);
-  }
-  100% {
-    transform: translateX(-56%);
-  }
-}
 .SkillsUsed .marquee:hover {
   animation-play-state: paused;
 }
