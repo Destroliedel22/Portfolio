@@ -1,0 +1,18 @@
+.body {
+    text-align: center;
+}
+
+.hr {
+    width: 500px;
+}
+
+#Hearts {
+    color: red;
+}
+
+#Grid {
+    width: 540px;
+    height: 540px;
+    background-color: blue;
+}
+
