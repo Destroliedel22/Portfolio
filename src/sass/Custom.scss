@@ -2693,13 +2693,13 @@
   * ------------------------------------------------------------------- */
  .text-pretitle {
      font-family    : var(--font-1);
-     font-size      : var(--text-sm);
+     font-size      : var(--text-md);
      font-weight    : 400;
      color          : var(--color-white);
-     text-transform : uppercase;
-     letter-spacing : .3em;
+    //  text-transform : uppercase;
+    //  letter-spacing : .1rem;
      margin-top     : 0;
-     margin-left    : .2rem;
+     margin-left    : -12px;
      margin-bottom  : var(--vspace-0_5);
      position       : relative;
  }
@@ -3430,7 +3430,7 @@
   * ------------------------------------------------------------------- */
  
  .s-about {
-     padding-top    : var(--vspace-4);
+     padding-top    : var(--vspace-1);
      padding-bottom : var(--vspace-3);
  }
  
@@ -3450,7 +3450,7 @@
  }
  
  .about-info__text {
-     padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
+     padding     : var(--vspace-1) 10vw var(--vspace-2) 0;
      margin-left : 15rem;
  }
  
@@ -3621,8 +3621,7 @@
   * ------------------------------------------------------------------- */
  
  .s-works {
-     padding-top    : var(--vspace-5);
-     padding-bottom : var(--vspace-3_5);
+     padding-bottom : var(--vspace-2);
  }
  
  .s-works .h1 {
@@ -3635,7 +3634,7 @@
  .folio-list {
      --item-min-height : var(--vspace-4_5);
      list-style        : none;
-     margin-top        : var(--vspace-4);
+     margin-top        : var(--vspace-1);
      margin-bottom     : var(--vspace-1);
      margin-left       : 0;
  }
@@ -3662,15 +3661,8 @@
  
  .folio-list__item-link:focus .folio-list__item-pic::before,
  .folio-list__item-link:hover .folio-list__item-pic::before {
-     opacity    : 1;
+     opacity    : 0.3;
      visibility : visible;
- }
- 
- .folio-list__item-link:focus .folio-list__item-pic::after,
- .folio-list__item-link:hover .folio-list__item-pic::after {
-     opacity    : 1;
-     visibility : visible;
-     transform  : scale(1);
  }
  
  .folio-list__item-link:focus .folio-list__item-text::before,
