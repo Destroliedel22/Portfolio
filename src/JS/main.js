@@ -42,7 +42,7 @@
     .add({
         targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title'],
         translateX: [100, 0],
-        opacity: [0, 1],
+        opacity: [0.1, 1],
         delay: anime.stagger(400)
     })
     .add({

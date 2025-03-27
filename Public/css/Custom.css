@@ -14913,7 +14913,6 @@ img.u-pull-left {
   justify-content: center;
   align-items: center;
   padding-top: calc(30vh - var(--header-height));
-  padding-bottom: var(--vspace-3);
 }
 
 .intro-content .text-huge-title {
