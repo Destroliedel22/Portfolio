@@ -6,19 +6,38 @@
 
         <link rel="stylesheet" href="Sudoku.css">
         <script src="Sudoku.js"></script>
+        <link rel="stylesheet" href="General.css">
     </head>
 
-    <body>
+    <body id="body">
         <h1>Sudoku</h1>
         <hr>
-        <h2 id="Hearts">5</h2>
+        <br>
+        <div  id="Hearts">
+            <img class="heart1" src="Heart.png" width="50px" height="50px">
+            <img class="heart2" src="Heart.png" width="50px" height="50px">
+            <img class="heart3" src="Heart.png" width="50px" height="50px">
+            <img class="heart4" src="Heart.png" width="50px" height="50px">
+            <img class="heart5" src="Heart.png" width="50px" height="50px">
+        </div>
+        <br>
 
         <!-- 9x9 board -->
-
-        <div id="Grid"></div>
-        <br>
-        <div id="Numbers"></div>
         
+        <div id="board">
+            <div hidden id="Failed">
+                <h1 style="color: red;">Failed</h1>
+                <button onclick="location.reload()" style="width: 100px; height: 25px;">Try Again</button>
+            </div>
+            <div hidden id="Win">
+                <img src="" alt="">
+                <H1 style="color: greenyellow;">Big win</H1>
+                <button onclick="location.reload()" style="width: 100px; height: 25px;">Play again</button>
+            </div>
+        </div>
+        
+        <br>
+        <div id="digits"></div>
     </body>
 
 

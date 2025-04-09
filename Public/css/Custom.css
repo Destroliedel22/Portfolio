@@ -15274,7 +15274,7 @@ img.u-pull-left {
  * ## works portfolio
  * -------------------------------------------------------------------- */
 .folio-list {
-  --item-min-height: var(--vspace-4_5);
+  --item-min-height: var(--vspace-5);
   list-style: none;
   margin-top: var(--vspace-1);
   margin-bottom: var(--vspace-1);

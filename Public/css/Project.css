@@ -77,3 +77,8 @@ body {
 .About-Project {
   margin-bottom: -50px;
 }
+
+.TopProject {
+  width: 100px;
+  height: 30px;
+}

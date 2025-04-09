@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>JordiWalet</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/Custom.css">
+    <link rel="stylesheet" href="css/Project.css"/>
+
+    <style>
+        .marquee {
+          display: flex;
+          gap: 10px; /* Adjust spacing */
+          min-width: 100%;
+          animation: pingPongScroll 6s ease-in-out infinite alternate;
+        }
+  
+        @keyframes pingPongScroll {
+          0% {
+            transform: translateX(3%);
+          }
+          100% {
+            transform: translateX(-72%);
+          }
+        }
+      </style>
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Luther.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link letterHover">Home</a></li>
+                        <li><a href="#project" class="letterHover">Project</a></li>
+                        <li><a href="#AboutProject" class="letterHover">About project</a></li>
+                        <li><a href="#Description" class="letterHover">Description</a></li>
+                        <!-- <li><a href="#HowDidIMakeThis" class="letterHover">How did i make this?</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+        <!-- ## main content
+        ================================================== -->
+        <main>
+            <!-- ## project info
+            ================================================== -->
+            <section id="project" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <h1 class="text-huge-title">
+                            Clown office
+                        </h1>
+                        <div class="images-container">
+                            <div>
+                              <img src="images/OwnImg/ClownOffice/image.png" alt="" />
+                              <p>image 1</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/ClownOffice/Kleedkamer.PNG" alt="" />
+                              <p>image 2</p>
+                            </div>
+                            <div>
+                                <img src="images/OwnImg/ClownOffice/EndScene (1) (1).gif" alt="" />
+                                <p>image 3</p>
+                              </div>
+                        </div>
+                        <div class="projectinfo" data-animatie-el>
+                            <p class="projectinfotext">
+                                This is a VR experience about jasper the clown that needs to quit his job as a clown and needs to have a job at the office. 
+                                He still feels like a clown so he still dresses as a clown. he keeps daydreaming about the moment he lost his job. but he just doesnt fit here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section><!-- end project -->
+
+            <section id="AboutProject" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h1 class="text-huge-title About-Project">
+                            About Project
+                        </h1>
+                        
+                        <div class="SkillsUsed" data-animatie-el>
+                            <div class="marquee">
+                                <h1><span class="badge rounded-pill text-bg-success">Game Engine: Unreal engine 5</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-primary">Code language: Blueprints</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-danger">Platforms: Quest 2/3</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-warning">Time: 8 weeks</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-secondary">People: 3 dev/1 artist</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Description" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h3 class="text-huge-title">
+                            Description
+                        </h3>
+                        <div data-animatie-el>
+                            <p>
+                                We had to make this VR experience as our Artist was also our director for the game. 
+                                So we had to make it how she wanted it to look like. It was a fun first look at how games are made for a client.
+                                i also learned a lot about unreal engine 5 and i do think that it is a really funny engine to use.
+                                I made this together with 2 other developers and 1 artist/director who also was a film academy student.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Luther 2021</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="JS/plugins.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/Script.js"></script>
+</body>
+</html>
