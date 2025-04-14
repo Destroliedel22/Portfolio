@@ -4280,3 +4280,36 @@
    top: -5px;
    rotate: var(--deg);
   }
+
+  .featured-project {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .letterHover {
+        font-size: 2.4rem;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+    }
+    
+
+    ul {
+        font-size: 1.2rem;
+    }
+
+    &:hover {
+        transform: scale(1.07);
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+        color: #eabe7b;
+    }
+}
+
+
