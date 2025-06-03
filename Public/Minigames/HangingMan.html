@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>HangingMan</title>
+
+        <link rel="stylesheet" href="HangingMan/HangingMan.css">
+        <link rel="stylesheet" href="General.css">
+        <script src="HangingMan/HangingMan.js"></script>
+    </head>
+
+    <body>
+
+        <h1>The Hanging Man</h1>
+        <hr>
+        <br>
+
+        <div id="HangingMan">
+            <img src="HangingMan/Images/Bottom.png" alt="" width="400px">
+        </div>
+
+        <div id="Word"></div>
+
+        <div id="Keyboard">
+            <div hidden id="Failed">
+                <h1 style="color: red;">Failed</h1>
+                <button onclick="location.reload()" style="width: 100px; height: 25px;">Try Again</button>
+            </div>
+            <div hidden id="Win">
+                <H1 style="color: greenyellow;">Big win</H1>
+                <button onclick="location.reload()" style="width: 100px; height: 25px;">Play again</button>
+            </div>
+        </div>
+
+    </body>
+</html>
