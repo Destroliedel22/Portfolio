@@ -1375,8 +1375,15 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
   .skill {
     margin-bottom: 15px;
+    flex: 0 0 calc(50% - 8px);
+    box-sizing: border-box;
   }
   .skill-name {
     font-size: 18px;

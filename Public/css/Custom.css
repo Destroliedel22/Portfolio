@@ -13105,8 +13105,16 @@ h6, .h6 {
   border-radius: 10px;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .skill {
   margin-bottom: 15px;
+  flex: 0 0 calc(50% - 8px);
+  box-sizing: border-box;
 }
 
 .skill-name {
