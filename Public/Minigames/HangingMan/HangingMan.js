@@ -1,7 +1,7 @@
 var selected = null;
 
-var hangingmanPic = ["HangingMan/Images/Side.png", "HangingMan/Images/Top.png", "HangingMan/Images/Bar.png",
-"HangingMan/Images/Head.png", "HangingMan/Images/Body.png", "HangingMan/Images/Arms.png", "HangingMan/Images/Dead.png"];
+var hangingmanPic = ["Minigames/HangingMan/Images/Side.png", "Minigames/HangingMan/Images/Top.png", "Minigames/HangingMan/Images/Bar.png",
+"Minigames/HangingMan/Images/Head.png", "Minigames/HangingMan/Images/Body.png", "Minigames/HangingMan/Images/Arms.png", "Minigames/HangingMan/Images/Dead.png"];
 
 var hangingmanPhase = 0;
 
@@ -23,7 +23,7 @@ window.onload = function()
 }
 
 async function setWord() {
-    const response = await fetch("https://random-word-api.herokuapp.com/word");
+    const response = await fetch("https://random-word-api.vercel.app/api?words=1");
     const data = await response.json();
     const word = data[0];
     RandomWord = data[0];
@@ -36,7 +36,7 @@ async function setGame()
     displayedWord = Array(solution.length).fill("_");
     document.getElementById("Word").innerText = displayedWord.join(" ");
 
-    for(let i = 0; i < 26; i++)
+    for(let i = 0; i < Alphabet.length; i++)
     {
         letter = document.createElement("div");
         letter.id = i;

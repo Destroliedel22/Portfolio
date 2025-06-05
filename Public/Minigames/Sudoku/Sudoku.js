@@ -101,7 +101,7 @@ function selectTile()
         else
         {
             hearts -= 1;
-            document.images.item(hearts).src = "Sudoku/Images/DeadHeart.png"
+            document.images.item(hearts).src = "Minigames/Sudoku/Images/DeadHeart.png"
             if(hearts <= 0)
             {
                 savedTiles.forEach(tile => 
