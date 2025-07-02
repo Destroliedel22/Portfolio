@@ -55,6 +55,7 @@ body {
 
 .projectinfotext {
     margin-left: 2px;
+    color: rgba(255, 255, 255, 0.850);
 }
 
 .skills {
@@ -91,4 +92,3 @@ body {
     height: 50vh;
     text-align: center;
 }
-
