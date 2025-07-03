@@ -92,3 +92,8 @@ body {
     height: 50vh;
     text-align: center;
 }
+
+.rounded-video {
+  border-radius: 20px;
+  overflow: hidden;
+}
