@@ -13108,12 +13108,11 @@ h6, .h6 {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 50px;
 }
 
 .skill {
-  margin-bottom: 15px;
-  flex: 0 0 calc(50% - 8px);
+  flex: 0 0 calc(33.333% - 35px);
   box-sizing: border-box;
 }
 

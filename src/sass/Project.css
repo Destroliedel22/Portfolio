@@ -97,3 +97,9 @@ body {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.TextHeads {
+  font-family    : var(--font-1);
+  font-weight    : 400;
+  color          : var(--color-white);
+}
