@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>JordiWalet</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/Custom.css">
+    <link rel="stylesheet" href="css/Project.css"/>
+
+    <style>
+        .marquee {
+          display: flex;
+          gap: 10px; /* Adjust spacing */
+          min-width: 100%;
+          animation: pingPongScroll 6s ease-in-out infinite alternate;
+        }
+  
+        @keyframes pingPongScroll {
+          0% {
+            transform: translateX(3%);
+          }
+          100% {
+            transform: translateX(-69%);
+          }
+        }
+      </style>
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Luther.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link letterHover">Home</a></li>
+                        <li><a href="#project" class="letterHover">Project</a></li>
+                        <li><a href="#AboutProject" class="letterHover">About project</a></li>
+                        <li><a href="#MyExperience" class="letterHover">My Experience</a></li>
+                        <li><a href="#Code" class="letterHover">Code</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+        <!-- ## main content
+        ================================================== -->
+        <main>
+            <!-- ## project info
+            ================================================== -->
+            <section id="project" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <h1 class="text-huge-title">
+                            Crown parkour
+                        </h1>
+                        <div class="images-container">
+                            <div>
+                              <img src="images/OwnImg/Platformer/StartScreen.png" alt="" />
+                              <p>image 1</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/Platformer/World.png" alt="" />
+                              <p>image 2</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/Platformer/Movement_Camera.gif" alt="" />
+                              <p>image 3</p>
+                            </div>
+                        </div>
+                        <div class="projectinfo" data-animatie-el>
+                            <p class="projectinfotext">
+                                You want to enter the castle but you need to collect 3 crowns first before you are allowed in.
+                                So you search for the crown while there is also a strange alien trying to kill you.
+                                You find out that the crowns are claimable once you complete a parkour.
+                                When you got 3 crowns and go in the castle you will be rich and forever happy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section><!-- end project -->
+
+            <section id="AboutProject" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h1 class="text-huge-title About-Project">
+                            About Project
+                        </h1>
+                        
+                        <div class="SkillsUsed" data-animatie-el>
+                            <div class="marquee">
+                                <h1><span class="badge rounded-pill text-bg-success">Game Engine: Unity</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-primary">Code language: C#</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-danger">Platforms: Pc/Steamdeck/mobile/Quest 2&3</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-warning">Time: 4 weeks</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-secondary">People: 1 dev</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="MyExperience" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h3 class="text-huge-title">
+                            My Experience
+                        </h3>
+                        <div data-animatie-el>
+                            <p class="projectinfotext">
+                                I had to make a platformer game and i decide to just make a little open world
+                                and just put the parkours everywhere. Then i thought why not make a goal you need to reach.
+                                Then there was the castle and the crowns and after that you just win. 
+                                We also needed to make the game on 3 different platforms.
+                                I made this game on the steamdeck wich is verily easy when you know the steps.
+                                I also made it on mobile with touch buttons just to experience how that works
+                                and at last vr wich was a bit different from normal vr games cause i put the camera in the surrounding and not on the players eyes.
+                                it was a lot of fun and i really enjoyed this one cause we did get a lot of freedom in this project.
+                            </p>
+                            <p class="projectinfotext">
+                                i made everything myself except the art, thats from the unity asset store.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Code" class="target-section">
+                <div class="center-image">
+                    <h1 class="text-huge-title">
+                        Code
+                    </h1>
+                    <p class="projectinfotext">
+                        For the code of this project please click the github logo below. You may have to log in to github if the link gives an error.
+                    </p>
+                    <a href="https://github.com/Destroliedel22/Platformer" target="_blank">
+                        <img src="images/OwnImg/Github.png" alt="GitHub" width="200px">
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Luther 2021</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="JS/plugins.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/Script.js"></script>
+</body>
+</html>

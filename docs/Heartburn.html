@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>JordiWalet</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/Custom.css">
+    <link rel="stylesheet" href="css/Project.css"/>
+
+    <style>
+        .marquee {
+          display: flex;
+          gap: 10px; /* Adjust spacing */
+          min-width: 100%;
+          animation: pingPongScroll 6s ease-in-out infinite alternate;
+        }
+  
+        @keyframes pingPongScroll {
+          0% {
+            transform: translateX(3%);
+          }
+          100% {
+            transform: translateX(-69%);
+          }
+        }
+      </style>
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Luther.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link letterHover">Home</a></li>
+                        <li><a href="#project" class="letterHover">Project</a></li>
+                        <li><a href="#AboutProject" class="letterHover">About project</a></li>
+                        <li><a href="#MyExperience" class="letterHover">My Experience</a></li>
+                        <li><a href="#Code" class="letterHover">Code</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+        <!-- ## main content
+        ================================================== -->
+        <main>
+            <!-- ## project info
+            ================================================== -->
+            <section id="project" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <h1 class="text-huge-title">
+                            Heartburn
+                        </h1>
+                        <div class="images-container">
+                            <div>
+                              <img src="images/OwnImg/Heartburn/Heartburn_cover.png" alt="" />
+                              <p>image 1</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/Heartburn/Shader.gif" alt="" />
+                              <p>image 2</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/Heartburn/Enemies.png" alt="" />
+                              <p>image 3</p>
+                            </div>
+                            <div>
+                              <img src="images/OwnImg/Heartburn/Cryopod.png" alt="" />
+                              <p>image 4</p>
+                            </div>
+                        </div>
+                        <div class="projectinfo" data-animatie-el>
+                            <p class="projectinfotext">
+                               You are a scientist and you found out you were frozen inside a crypod and finally woke up. 
+                               You realize that you need to keep moving otherwise you will slowly die. So you start exploring 
+                               and found out you are in an abandoned factory where there are still some weird flying robots roaming around.
+                               You start killing them but soon find out your in a infinite loop of killing these things and there is no way out.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section><!-- end project -->
+
+            <section id="AboutProject" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h1 class="text-huge-title About-Project">
+                            About Project
+                        </h1>
+                        
+                        <div class="SkillsUsed" data-animatie-el>
+                            <div class="marquee">
+                                <h1><span class="badge rounded-pill text-bg-success">Game Engine: Unity</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-primary">Code language: C#</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-danger">Platforms: Quest 3</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-warning">Time: 8 weeks</span></h1>
+                                <h1><span class="badge rounded-pill text-bg-secondary">People: 3 dev 2 art</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="MyExperience" class="target-section">
+                <div class="row wide">
+                    <div class="column">
+                        <h3 class="text-huge-title">
+                            My Experience
+                        </h3>
+                        <div data-animatie-el>
+                            <p class="projectinfotext">
+                                This project was all about publishing our game. The process of making this game was hard 
+                                because we got a lot of bugs we couldn't fix for a couple days sometimes weeks.
+                                It became a really fun game at then end though and i really enjoyed the fun when it was finally done.
+                                I made this game together with 3 devs and 2 artists although there is not much art the game is really fun to play.
+                            </p>
+                            <p class="projectinfotext">
+                                I made the forcebubble shader that you can see in the 2nd picture, hand animations, the roguelike system, 
+                                the weapons and the staminabar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Code" class="target-section">
+                <div class="center-image">
+                    <h1 class="text-huge-title">
+                        Code
+                    </h1>
+                    <p class="projectinfotext">
+                        For the code of this project please click the github logo below. You may have to log in to github if the link gives an error.
+                    </p>
+                    <a href="https://github.com/JasperBroest/Rustglide" target="_blank">
+                        <img src="images/OwnImg/Github.png" alt="GitHub" width="200px">
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Luther 2021</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="JS/plugins.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/Script.js"></script>
+</body>
+</html>
