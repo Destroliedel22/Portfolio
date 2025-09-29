@@ -15925,7 +15925,7 @@ img.u-pull-left {
   width: 100%;
 }
 .featured-project .featured-project__image img {
-  max-width: 750px;
+  max-width: 350px;
   width: 100%;
   height: auto;
   border-radius: 12px;
