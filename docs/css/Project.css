@@ -103,3 +103,25 @@ body {
   font-weight: 400;
   color: var(--color-white);
 }
+
+.blueprint-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers the iframes horizontally */
+  gap: 2rem; /* space between iframes */
+  margin: 2rem 0;
+}
+
+.blueprint-container iframe {
+  width: 70%; /* takes 80% of page width */
+  max-width: 1200px; /* optional: stops it getting too huge */
+  height: 500px; /* or use 80vh for responsive height */
+  border: none;
+  border-radius: 12px;
+}
+
+.CodeText {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
